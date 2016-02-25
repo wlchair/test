@@ -278,8 +278,6 @@ module.exports = function(grunt) {
         },
     });
 
-    require('load-grunt-tasks')(grunt);
-    grunt.loadTasks('build/tasks');    // 加载build目录下的所有task
 
     // Default task(s).
     grunt.registerTask('default', ['jsbint:all', 'dist']);
