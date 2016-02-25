@@ -1,9 +1,9 @@
 {
-"name":"test",
-"devDependencies":{
- "grunt":"0.4.1"
-},
-"script":{
- "test":"grunt test"
-}
+    "name": "test",
+    "devDependencies": {
+        "grunt": "0.4.1"
+    },
+    "script": {
+        "test": "grunt test"
+    }
 }
