@@ -4,6 +4,6 @@
         "grunt": "0.4.1"
     },
     "script": {
-        "test": "grunt test"
+        "test": "grunt"
     }
 }
