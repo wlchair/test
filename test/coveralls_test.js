@@ -5,6 +5,8 @@ var fs = require('fs');
 var grunt = require('grunt');
 var sinon = require('sinon');
 
+coveralls.wear!
+
 function runGruntTask(taskName, callback) {
     var task = grunt.task._taskPlusArgs(taskName);
     task.task.fn.apply({
