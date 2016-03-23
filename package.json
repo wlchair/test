@@ -2,9 +2,6 @@
   "name": "grunt-",
   "description": "Grunt task to load coverage results and submit them to Coveralls.io",
   "version": "1.0.0",
-  "homepage": "https://github.com/pimterry/grunt-": {
-    "coveralls": "^2.11.1"
-  }overalls",
   "author": {
     "name": "Tim Perry",
     "email": "pimterry@gmail.com",
@@ -53,5 +50,7 @@
     "grunt",
     "lcov"
   ],
-
+"dependencies": {
+    "coveralls": "^2.11.1"
+  }
 }
