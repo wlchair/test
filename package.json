@@ -4,5 +4,8 @@
     "grunt": "0.4.5",
     "istanbul":"~0.3.0",
     "grunt-coveralls":"~1.0.0"
+  },
+  "dependencies":{
+    "coveralls":"~2.1.1"
   }
 }
