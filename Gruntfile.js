@@ -2,13 +2,13 @@ module.exports = function(grunt) {
     'use strict';
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json')
+        pkg: grunt.file.readJSON('package.json'),
+	coveralls:{
+	    test:{
+		src:'coverage/lcov.info'
+	    }
+	}
     });
-
-
-    // Default task(s).
-    // grunt.registerTask('default', ['jsbint:all', 'dist']);
-    // grunt.registerTask('dist', ['build', 'uglify', 'copy']);
-    // grunt.registerTask('deploy', ['doc', 'jekyll', 'gh-pages']);
-    // grunt.registerTask('test', ['connect', 'qunit']);
+    grunt.loadNpmTasks('grunt-coveralls');
+    grunt.registerTask('default', ['coveralls']);
 };
