@@ -1,27 +1,8 @@
-/*
- * grunt-coveralls
- * https://github.com/pimterry/grunt-coveralls
- *
- * Copyright (c) 2013 Tim Perry
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 module.exports = function(grunt) {
 
     grunt.initConfig({
-<<<<<<< HEAD
-        pkg: grunt.file.readJSON('package.json'),
-	coveralls:{
-	    test:{
-		src:'coverage/lcov.info'
-	    }
-	}
-    });
-    grunt.loadNpmTasks('grunt-coveralls');
-    grunt.registerTask('default', ['coveralls']);
-=======
         jshint: {
             all: [
                 'Gruntfile.js',
@@ -93,5 +74,4 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['test']);
     grunt.registerTask('test', ['jshint', 'nodeunit']);
->>>>>>> myversion
 };
