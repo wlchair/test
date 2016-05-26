@@ -13,5 +13,5 @@ before_script:
 script:
 - grunt
 - istanbul cover src/test.js
-- git remote add deploy http://excel-inc.acmr.com.cn/git/test.git
+- git remote add deploy root@excel-inc.acmr.com.cn/usr/local/apache2/htdocs/git/test.git
 - git push deploy
