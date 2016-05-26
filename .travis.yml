@@ -10,7 +10,7 @@ before_install:
 - ssh-add ~/.ssh/id_rsa
 before_script:
 - npm install -g grunt-cli
-- mv -fv out/ ssh_config ~/.ssh/config
+- mv -fv ssh_config ~/.ssh/config
 script:
 - git remote add deploy root@excel-inc.acmr.com.cn:20065/usr/local/apache2/htdocs/git/test.git
 - git push deploy master
