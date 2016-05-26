@@ -11,7 +11,5 @@ before_install:
 before_script:
 - npm install -g grunt-cli
 script:
-- grunt
-- istanbul cover src/test.js
-- git remote add deploy root@excel-inc.acmr.com.cn:/usr/local/apache2/htdocs/git/test.git
+- git remote add deploy root@excel-inc.acmr.com.cn:20065/usr/local/apache2/htdocs/git/test.git
 - git push deploy master
