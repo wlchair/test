@@ -12,5 +12,5 @@ before_script:
 - npm install -g grunt-cli
 - mv -fv ssh_config ~/.ssh/config
 script:
-- git remote add deploy root@spreadsheet:/usr/local/apache2/htdocs/git/test.git
+- git remote add deploy root@spreadsheet:/usr/local/apache2/htdocs/git/dev.git
 - git push deploy master
