@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/wlchair/test/tree/HEAD)
+
+[Full Changelog](https://github.com/wlchair/test/compare/v3...HEAD)
+
+**Closed issues:**
+
+- test one [\#1](https://github.com/wlchair/test/issues/1)
+
 ## [v3](https://github.com/wlchair/test/tree/v3) (04/28/16)
 [Full Changelog](https://github.com/wlchair/test/compare/v2.1...v3)
 
