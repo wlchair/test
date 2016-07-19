@@ -1,7 +1,7 @@
 {
   "name": "testing",
   "devDependencies": {
-    "grunt-conventional-changelog": "^6.1.0"
+    "grunt-conventional-changelog": "^5.0.0"
   },
   "peerDependencies": {}
 }

@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     options: {
       changelogOpts: {
         // conventional-changelog options go here
-        preset: 'angular'
+        preset: 'jshint'
       },
       context: {
         // context goes here
