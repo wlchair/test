@@ -1,7 +1,16 @@
 {
   "name": "testing",
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.6",
     "grunt-conventional-changelog": "^5.0.0"
   },
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "conventional-changelog": "^1.1.0"
+  }
 }
