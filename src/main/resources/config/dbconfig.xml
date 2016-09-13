@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+	<db>
+		<dbname>mod</dbname>
+		<dirvername>oracle.jdbc.driver.OracleDriver</dirvername>
+		<username>acmrmod</username>
+		<userpwd>acmr123456</userpwd>
+		<uri>jdbc:oracle:thin:@//192.168.1.241:1521/acmrdb</uri>
+		<maxcount>30</maxcount>
+		<mincount>5</mincount>
+		<usetimeout>200</usetimeout>
+		<freetimeout>60</freetimeout>
+	</db>
+	<db>
+		<dbname>input</dbname>
+		<dirvername>oracle.jdbc.driver.OracleDriver</dirvername>
+		<username>ACMRINPUT</username>
+		<userpwd>acmr123456</userpwd>
+		<uri>jdbc:oracle:thin:@//192.168.1.242:1521/acmrdb</uri>
+		<maxcount>30</maxcount>
+		<mincount>5</mincount>
+		<usetimeout>200</usetimeout>
+		<freetimeout>60</freetimeout>
+	</db>
+	<db>
+		<dbname>cube</dbname>
+		<dirvername>oracle.jdbc.driver.OracleDriver</dirvername>
+		<username>acmrdb</username>
+		<userpwd>acmr123456</userpwd>
+		<uri>jdbc:oracle:thin:@//192.168.1.241:1521/acmrdb</uri>
+		<maxcount>30</maxcount>
+		<mincount>5</mincount>
+		<usetimeout>200</usetimeout>
+		<freetimeout>60</freetimeout>
+	</db>
+</dbs>
