@@ -1,5 +1,0 @@
-language: java
-jdk:
-- oraclejdk7
-scripts:
-- mvn install -Dmaven.javadoc.skip=true
