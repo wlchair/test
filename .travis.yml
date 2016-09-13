@@ -26,5 +26,3 @@ notifications:
     - jinhr@acmr.com.cn
 
 after_script:
-- git remote add deploy root@spreadsheet:/usr/local/apache2/htdocs/git/back.git
-- git push deploy master
