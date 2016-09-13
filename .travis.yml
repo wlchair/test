@@ -1,6 +1,5 @@
 language: java
-branches:
-    only:
-    - custom-heroku
+jdk:
+- oraclejdk7
 scripts:
 - mvn install -Dmaven.javadoc.skip=true
