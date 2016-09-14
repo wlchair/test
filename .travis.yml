@@ -1,22 +1,8 @@
-language: java
-jdk:
-  - oraclejdk7  
-#  - openjdk7  
-#  - openjdk6  
-
-before_install:
-
-install:
-- echo skipped
-
-before_script:
-- mv -fv tools/deploy/ssh_config ~/.ssh/config
+language: node_js
+node_js:
+ - 5.9.0
 
 script:
-- mvn install -Dmaven.javadoc.skip=true
-notifications:
-  email:
-    recipients:
-    - jinhr@acmr.com.cn
+- npm install
+- node index.js
 
-after_script:
