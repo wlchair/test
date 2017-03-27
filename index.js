@@ -1,1 +1,3 @@
-functon a(){}
+functon a(){
+console.info('1')
+}
