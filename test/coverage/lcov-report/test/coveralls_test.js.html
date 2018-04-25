@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for test\coveralls_test.js</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../prettify.css">
+    <link rel="stylesheet" href="../base.css">
+    <style type='text/css'>
+        div.coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class="header low">
+    <h1>Code coverage report for <span class="entity">test\coveralls_test.js</span></h1>
+    <h2>
+        Statements: <span class="metric">13.79% <small>(8 / 58)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">100% <small>(0 / 0)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 22)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">13.79% <small>(8 / 58)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">test/</a> &#187; coveralls_test.js</div>
+</div>
+<div class="body">
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
+&nbsp;
+var coveralls = require('coveralls');
+var fs = require('fs');
+var grunt = require('grunt');
+var sinon = require('sinon');
+&nbsp;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function runGruntTask(taskName, callback) {</span>
+<span class="cstat-no" title="statement not covered" >    var task = grunt.task._taskPlusArgs(taskName);</span>
+<span class="cstat-no" title="statement not covered" >    task.task.fn.apply({</span>
+        nameArgs: task.nameArgs,
+        name: task.task.name,
+        args: task.args,
+        flags: task.flags,
+        async: <span class="fstat-no" title="function not covered" >function() {</span> <span class="cstat-no" title="statement not covered" >return callback; </span>}
+    }, task.args);
+}
+&nbsp;
+<span class="fstat-no" title="function not covered" >function givenCoverallsWillFail() {</span>
+<span class="cstat-no" title="statement not covered" >    coveralls.handleInput.restore();</span>
+<span class="cstat-no" title="statement not covered" >    sinon.stub(coveralls, 'handleInput').callsArgWith(1, 'Error');</span>
+}
+&nbsp;
+<span class="fstat-no" title="function not covered" >function givenFileReadsWillFail() {</span>
+<span class="cstat-no" title="statement not covered" >    fs.readFile.restore();</span>
+<span class="cstat-no" title="statement not covered" >    sinon.stub(fs, 'readFile').callsArgWith(2, 'Error');</span>
+}
+&nbsp;
+exports.coveralls = {
+    setUp: <span class="fstat-no" title="function not covered" >function (callback) {</span>
+<span class="cstat-no" title="statement not covered" >        sinon.stub(coveralls, 'handleInput').callsArgWith(1, null);</span>
+<span class="cstat-no" title="statement not covered" >        sinon.spy(fs, 'readFile');</span>
+<span class="cstat-no" title="statement not covered" >        callback();</span>
+    },
+&nbsp;
+    tearDown: <span class="fstat-no" title="function not covered" >function (callback) {</span>
+<span class="cstat-no" title="statement not covered" >        fs.readFile.restore();</span>
+<span class="cstat-no" title="statement not covered" >        coveralls.handleInput.restore();</span>
+<span class="cstat-no" title="statement not covered" >        callback();</span>
+    },
+&nbsp;
+    submits_file_to_coveralls: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:basic_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(result, 'Should be successful');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(coveralls.handleInput.calledOnce);</span>
+<span class="cstat-no" title="statement not covered" >            test.equal(coveralls.handleInput.getCall(0).args[0], 'lcov.info content', 'Should send lcov data');</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    submits_nothing_if_the_file_is_missing: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:missing_file_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(!result, 'Should fail');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(!coveralls.handleInput.called);</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    submits_multiple_files: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:multiple_files_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(result, 'Should be successful');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(coveralls.handleInput.calledTwice);</span>
+<span class="cstat-no" title="statement not covered" >            sinon.assert.calledWith(coveralls.handleInput, 'lcov.info content');</span>
+<span class="cstat-no" title="statement not covered" >            sinon.assert.calledWith(coveralls.handleInput, 'lcov2.info content');</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    submits_present_files_only_if_some_are_missing: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:some_missing_files_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(result, 'Should be successful');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(coveralls.handleInput.calledOnce);</span>
+<span class="cstat-no" title="statement not covered" >            sinon.assert.calledWith(coveralls.handleInput, 'lcov.info content');</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    fails_if_multiple_files_listed_and_all_files_are_missing: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:all_missing_files_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(!result, 'Should fail');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(!coveralls.handleInput.called);</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    fails_if_file_is_not_readable: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        givenFileReadsWillFail();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:basic_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(!result, 'Should fail');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            test.ok(!coveralls.handleInput.called);</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    fails_if_any_files_fail_to_upload: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        givenCoverallsWillFail();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:basic_test', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(!result, 'Should fail');</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    },
+&nbsp;
+    force_mode_doesnt_produce_grunt_errors: <span class="fstat-no" title="function not covered" >function (test) {</span>
+<span class="cstat-no" title="statement not covered" >        givenCoverallsWillFail();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        runGruntTask('coveralls:basic_test_force', <span class="fstat-no" title="function not covered" >function (result) {</span></span>
+<span class="cstat-no" title="statement not covered" >            test.ok(result, 'Should not fail when options.force === true');</span>
+<span class="cstat-no" title="statement not covered" >            test.done();</span>
+        });
+    }
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Mar 24 2017 18:06:02 GMT+0800 (China Standard Time)</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>
